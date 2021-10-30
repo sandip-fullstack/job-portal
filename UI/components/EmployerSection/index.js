@@ -1,4 +1,4 @@
-import ListTile from "../JobListingSection/ListTile";
+import ListTile from "../JobListingSection/listTile";
 
 const EmployerSection = ({data, isLoading, isError, error, onJobEdit}) => {
   return (

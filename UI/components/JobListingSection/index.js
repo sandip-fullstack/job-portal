@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Button from "../../libraries/button";
-import ListTile from "./ListTile";
+import ListTile from "./listTile";
 
 const JobListingSection = ({isLoading, isError,
     error, data,
