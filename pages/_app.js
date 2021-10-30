@@ -1,8 +1,7 @@
 import '../styles/globals.css'
 import "../styles/tachyons.css"
 import { QueryClient, QueryClientProvider } from 'react-query'
-import { ReactQueryDevtools } from 'react-query/devtools';
-
+import React  from 'react';
 import Header from '../UI/libraries/header';
 
 const queryClient = new QueryClient({
@@ -14,9 +13,10 @@ const queryClient = new QueryClient({
 })
 function MyApp({ Component, pageProps }) {
   return (<QueryClientProvider client={queryClient}>
-    <ReactQueryDevtools/>
+    <React.StrictMode>  
       <Header />
       <Component {...pageProps} />
+    </React.StrictMode>  
     </QueryClientProvider>)
 }
 
