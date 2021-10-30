@@ -1,0 +1,53 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/dcwu57tXX7yQIxnnFB8-G/_buildManifest.js",
+    "static/dcwu57tXX7yQIxnnFB8-G/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-7ed9e7174fd43fb9a6b7.js",
+      "static/chunks/main-c4f2541b93e4ae8b71f8.js",
+      "static/chunks/pages/index-24cb27a9f8a6802ada12.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-7ed9e7174fd43fb9a6b7.js",
+      "static/chunks/main-c4f2541b93e4ae8b71f8.js",
+      "static/css/2c0c8536140906882252.css",
+      "static/chunks/pages/_app-58f6012e81a4e413778e.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-7ed9e7174fd43fb9a6b7.js",
+      "static/chunks/main-c4f2541b93e4ae8b71f8.js",
+      "static/chunks/pages/_error-737a04e9a0da63c9d162.js"
+    ],
+    "/candidate": [
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-7ed9e7174fd43fb9a6b7.js",
+      "static/chunks/main-c4f2541b93e4ae8b71f8.js",
+      "static/chunks/1bfc9850-5aea54ec17f7003c232f.js",
+      "static/chunks/526-e466125fc67f170fe261.js",
+      "static/chunks/552-2d84eafbec2db0999179.js",
+      "static/css/d897fea6f8b10655b8ea.css",
+      "static/chunks/pages/candidate-0b9ebe4d4e9b2f7990aa.js"
+    ],
+    "/employer": [
+      "static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+      "static/chunks/framework-7ed9e7174fd43fb9a6b7.js",
+      "static/chunks/main-c4f2541b93e4ae8b71f8.js",
+      "static/chunks/1bfc9850-5aea54ec17f7003c232f.js",
+      "static/chunks/526-e466125fc67f170fe261.js",
+      "static/chunks/552-2d84eafbec2db0999179.js",
+      "static/css/3c76cba44e227d6e5c8e.css",
+      "static/chunks/pages/employer-fb5ad64217880000671d.js"
+    ]
+  },
+  "ampFirstPages": []
+}
