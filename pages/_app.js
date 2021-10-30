@@ -3,7 +3,8 @@ import "../styles/tachyons.css"
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { ReactQueryDevtools } from 'react-query/devtools';
 
-import Header from '../UI/libraries/header'
+import Header from '../UI/libraries/header';
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -13,8 +14,8 @@ const queryClient = new QueryClient({
 })
 function MyApp({ Component, pageProps }) {
   return (<QueryClientProvider client={queryClient}>
-    <Header />
     <ReactQueryDevtools/>
+      <Header />
       <Component {...pageProps} />
     </QueryClientProvider>)
 }
