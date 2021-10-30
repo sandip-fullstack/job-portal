@@ -1,2 +1,2 @@
-web: yarn dev
+web: yarn start
 api: node server/server.js
